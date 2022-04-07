@@ -25,7 +25,8 @@
 - Form for signup: http://localhost:25000/signup
 
 #### Implementation
-Here is a simplified UML diagramm to show the main classes I used to design the backend.
+Here is a simplified UML class diagram to show the main classes I used to design the backend.
+Please note that this is only a simplified representation. Many other classes are used in the real implementation.
 
 
 ![Screenshot](wunder-mobility.drawio.png)
