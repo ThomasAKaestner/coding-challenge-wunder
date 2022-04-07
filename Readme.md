@@ -1,7 +1,7 @@
 ## Coding Challenge Wunder Mobility
 
 ### Setup
-#### Pre-requirements
+#### Requirements
 - Docker
 - GIT
 
