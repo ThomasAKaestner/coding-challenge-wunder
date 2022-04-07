@@ -25,6 +25,9 @@
 - Form for signup: http://localhost:25000/signup
 
 #### Implementation
+Here is a simplified UML diagramm to show the main classes I used to design the backend.
+
+
 ![Screenshot](wunder-mobility.drawio.png)
 
 ### Questions
@@ -41,4 +44,5 @@
 - I am not validating the data in the backend. When you place a direct CURL request there could be a failure.
 - I can definetly improve the frontend. Using a frontend framework and splitting up the application would be more
   professional.
-- I could have implemented a better exception handling solution. Currently throwing a custom exception. 
+- I could have implemented a better exception handling solution. Currently throwing a custom exception and handling this
+  exception directly inside the controller. 
