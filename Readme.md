@@ -24,6 +24,9 @@
 - Server: http://localhost:25000
 - Form for signup: http://localhost:25000/signup
 
+#### Implementation
+![Screenshot](wunder-mobility.drawio.png)
+
 ### Questions
 
 #### 1. Describe possible performance optimizations for your Code.
