@@ -30,7 +30,8 @@
 
 - I am using 3 retries when calling the payment endpoint. If the endpoint is slow or for split second not reachable the
   user has to wait.
-- Frontend performance can be increased with a proper framework
+- Frontend performance can be increased with a proper framework. I am using raw js, jquery and including libraries via
+  CDNs.
 
 #### 2. Which things could be done better, than you’ve done it?
 
