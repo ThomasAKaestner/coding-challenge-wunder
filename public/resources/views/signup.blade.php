@@ -93,10 +93,10 @@
     <!-- One "tab" for each step in the form: -->
     <div class="tab" id="step0">Name:
         <p><input
-                  placeholder="First name..." onkeydown="saveDataToLocalStorage('firstName')"
+                  placeholder="First name..." onkeyup="saveDataToLocalStorage('firstName')"
                   oninput="this.className = ''" id="firstName"
                   name="firstName"></p>
-        <p><input placeholder="Last name..." oninput="this.className = ''"
+        <p><input placeholder="Last name..." onkeyup="this.className = ''"
                   onkeydown="saveDataToLocalStorage('lastName')"
                   id="lastName"
                   name="lastName"></p>
@@ -107,30 +107,30 @@
     </div>
     <div class="tab" id="step1">Address Info:
         <p><input placeholder="Street..."
-                  onkeydown="saveDataToLocalStorage('street')"
+                  onkeyup="saveDataToLocalStorage('street')"
                   id="street"
                   oninput="this.className = ''" name="street"></p>
         <p><input placeholder="Housenumber..."
-                  onkeydown="saveDataToLocalStorage('house_number')"
+                  onkeyup="saveDataToLocalStorage('house_number')"
                   id="house_number"
                   oninput="this.className = ''" name="house_number"></p>
         <p><input placeholder="City..."
                   id="city"
-                  onkeydown="saveDataToLocalStorage('city')"
+                  onkeyup="saveDataToLocalStorage('city')"
                   oninput="this.className = ''" name="city"></p>
         <p><input placeholder="Zip Code..."
                   id="zip_code"
-                  onkeydown="saveDataToLocalStorage('zip_code')"
+                  onkeyup="saveDataToLocalStorage('zip_code')"
                   oninput="this.className = ''" name="zip_code"></p>
     </div>
     <div class="tab" id="step2">Payment Info:
         <p><input placeholder="Account Owner Name..."
                   id="owner"
-                  onkeydown="saveDataToLocalStorage('owner')"
+                  onkeyup="saveDataToLocalStorage('owner')"
                   oninput="this.className = ''" name="owner"></p>
         <p><input placeholder="IBAN..."
                   id="iban"
-                  onkeydown="saveDataToLocalStorage('iban')"
+                  onkeyup="saveDataToLocalStorage('iban')"
                   oninput="this.className = ''" name="iban"></p>
     </div>
     <div id="success" style="display: none">
